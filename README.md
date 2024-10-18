@@ -48,7 +48,7 @@ create_gif(
 
 3. Create Animated GIF: Once all images are in PNG format, the script compiles them into an animated GIF. You can customise the duration of each frame and the number of loops.
 
-## Example of Usage
+### Example of Usage
 
 Here is a simple example demonstrating how to use the script:
 
@@ -66,7 +66,7 @@ create_gif(
 )
 ```
 
-## File Structure Requirements
+### File Structure Requirements
 
 Ensure that your files are stored in a structured directory like this:
 
@@ -78,17 +78,17 @@ Ensure that your files are stored in a structured directory like this:
 ```
 If you are using SVG files, they will automatically be converted to PNG before being added to the GIF. If the files are named with numbers (like image_1.svg, image_2.png), the script will sort them by the numbers.
 
-## Output
+### Output
 
 After running the script, the output will be an animated GIF saved to the path you provided (e.g., my_animation.gif).
 
 
-## Error Handling
+### Error Handling
 
 If no files with the specified extension are found in the directory, the script will raise a `ValueError`.
 If any image file fails to convert, the script will skip that file and print an error message.
 
-### License
+## License
 
 This project is licensed under the MIT License.
 
