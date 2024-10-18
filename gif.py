@@ -1,3 +1,28 @@
+"""
+GIF Creator from Image Files
+
+This script finds image files (e.g., SVG, PNG) in a specified directory, converts them to PNG (if necessary),
+and compiles them into an animated GIF with customisable frame duration and looping.
+
+Author: Emily Gribbin
+GitHub: https://github.com/emilygribbin/Visualisation
+Date: 18th October 2024
+
+Usage:
+------
+Please refer to the README.md file for detailed usage instructions and examples.
+
+License:
+--------
+This project is licensed under the MIT License - see the LICENSE file for details.
+
+Citation:
+---------
+If you use this project in your research or for any academic purpose, please cite it using the following:
+
+Gribbin, Emily. 2024. Gif Creator. GitHub Repository: https://github.com/emilygribbin/Visualisation
+"""
+
 import os
 import re
 from pathlib import Path
