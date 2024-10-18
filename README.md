@@ -1,6 +1,6 @@
 # GIF Creator from Image Files
 
-This Python project provides a script that converts a series of images (such as SVG, PNG, or other formats) into an animated GIF. It includes functionality to find image files in a directory, convert non-PNG formats (e.g., SVG) to PNG, and create a GIF with adjustable duration and looping settings.
+This is a Python script that converts a series of images (such as SVG, PNG, or other formats) into an animated GIF. It includes functionality to find image files in a directory, convert non-PNG formats (e.g., SVG) to PNG, and create a GIF with adjustable duration and looping settings.
 
 ## Requirements
 
